@@ -1,0 +1,28 @@
+.all_songs {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+
+}
+.punjabi_song {
+  margin-right: 70px;
+  margin-left: 70px;
+  padding: 10px;
+}
+.show_song_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.show_song_top > p {
+  color: red;
+}
+.show_song_top > p:hover {
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+}
+.all_songs::-webkit-scrollbar {
+    display: none;
+  }

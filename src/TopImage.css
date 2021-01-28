@@ -1,0 +1,12 @@
+.each-slide {
+  display: flex;
+  justify-content: center;
+}
+.slideshow_image > img {
+  border-radius: 15px;
+  justify-content: center;
+}
+.slideshow_image{
+    display: flex;
+    gap:10px;
+}
